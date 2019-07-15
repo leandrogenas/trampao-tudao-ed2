@@ -1,0 +1,3 @@
+D:/Trampos/Trabalhos-ED2/cmake-build-debug/CMakeFiles/trampao-tudao.dir
+D:/Trampos/Trabalhos-ED2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Trampos/Trabalhos-ED2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
