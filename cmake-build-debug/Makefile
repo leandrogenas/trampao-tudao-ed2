@@ -122,275 +122,59 @@ trampao-tudao/fast:
 	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/build
 .PHONY : trampao-tudao/fast
 
-src/arvore.obj: src/arvore.cpp.obj
+src/Hash.obj: src/Hash.cpp.obj
 
-.PHONY : src/arvore.obj
-
-# target to build an object file
-src/arvore.cpp.obj:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/arvore.cpp.obj
-.PHONY : src/arvore.cpp.obj
-
-src/arvore.i: src/arvore.cpp.i
-
-.PHONY : src/arvore.i
-
-# target to preprocess a source file
-src/arvore.cpp.i:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/arvore.cpp.i
-.PHONY : src/arvore.cpp.i
-
-src/arvore.s: src/arvore.cpp.s
-
-.PHONY : src/arvore.s
-
-# target to generate assembly for a file
-src/arvore.cpp.s:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/arvore.cpp.s
-.PHONY : src/arvore.cpp.s
-
-src/avl.obj: src/avl.cpp.obj
-
-.PHONY : src/avl.obj
+.PHONY : src/Hash.obj
 
 # target to build an object file
-src/avl.cpp.obj:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/avl.cpp.obj
-.PHONY : src/avl.cpp.obj
+src/Hash.cpp.obj:
+	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj
+.PHONY : src/Hash.cpp.obj
 
-src/avl.i: src/avl.cpp.i
+src/Hash.i: src/Hash.cpp.i
 
-.PHONY : src/avl.i
+.PHONY : src/Hash.i
 
 # target to preprocess a source file
-src/avl.cpp.i:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/avl.cpp.i
-.PHONY : src/avl.cpp.i
+src/Hash.cpp.i:
+	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/Hash.cpp.i
+.PHONY : src/Hash.cpp.i
 
-src/avl.s: src/avl.cpp.s
+src/Hash.s: src/Hash.cpp.s
 
-.PHONY : src/avl.s
+.PHONY : src/Hash.s
 
 # target to generate assembly for a file
-src/avl.cpp.s:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/avl.cpp.s
-.PHONY : src/avl.cpp.s
+src/Hash.cpp.s:
+	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/Hash.cpp.s
+.PHONY : src/Hash.cpp.s
 
-src/comunicadores/celular.obj: src/comunicadores/celular.cpp.obj
+src/account.obj: src/account.cpp.obj
 
-.PHONY : src/comunicadores/celular.obj
+.PHONY : src/account.obj
 
 # target to build an object file
-src/comunicadores/celular.cpp.obj:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/celular.cpp.obj
-.PHONY : src/comunicadores/celular.cpp.obj
+src/account.cpp.obj:
+	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/account.cpp.obj
+.PHONY : src/account.cpp.obj
 
-src/comunicadores/celular.i: src/comunicadores/celular.cpp.i
+src/account.i: src/account.cpp.i
 
-.PHONY : src/comunicadores/celular.i
-
-# target to preprocess a source file
-src/comunicadores/celular.cpp.i:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/celular.cpp.i
-.PHONY : src/comunicadores/celular.cpp.i
-
-src/comunicadores/celular.s: src/comunicadores/celular.cpp.s
-
-.PHONY : src/comunicadores/celular.s
-
-# target to generate assembly for a file
-src/comunicadores/celular.cpp.s:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/celular.cpp.s
-.PHONY : src/comunicadores/celular.cpp.s
-
-src/comunicadores/comunicador.obj: src/comunicadores/comunicador.cpp.obj
-
-.PHONY : src/comunicadores/comunicador.obj
-
-# target to build an object file
-src/comunicadores/comunicador.cpp.obj:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/comunicador.cpp.obj
-.PHONY : src/comunicadores/comunicador.cpp.obj
-
-src/comunicadores/comunicador.i: src/comunicadores/comunicador.cpp.i
-
-.PHONY : src/comunicadores/comunicador.i
+.PHONY : src/account.i
 
 # target to preprocess a source file
-src/comunicadores/comunicador.cpp.i:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/comunicador.cpp.i
-.PHONY : src/comunicadores/comunicador.cpp.i
+src/account.cpp.i:
+	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/account.cpp.i
+.PHONY : src/account.cpp.i
 
-src/comunicadores/comunicador.s: src/comunicadores/comunicador.cpp.s
+src/account.s: src/account.cpp.s
 
-.PHONY : src/comunicadores/comunicador.s
-
-# target to generate assembly for a file
-src/comunicadores/comunicador.cpp.s:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/comunicador.cpp.s
-.PHONY : src/comunicadores/comunicador.cpp.s
-
-src/comunicadores/radio.obj: src/comunicadores/radio.cpp.obj
-
-.PHONY : src/comunicadores/radio.obj
-
-# target to build an object file
-src/comunicadores/radio.cpp.obj:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/radio.cpp.obj
-.PHONY : src/comunicadores/radio.cpp.obj
-
-src/comunicadores/radio.i: src/comunicadores/radio.cpp.i
-
-.PHONY : src/comunicadores/radio.i
-
-# target to preprocess a source file
-src/comunicadores/radio.cpp.i:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/radio.cpp.i
-.PHONY : src/comunicadores/radio.cpp.i
-
-src/comunicadores/radio.s: src/comunicadores/radio.cpp.s
-
-.PHONY : src/comunicadores/radio.s
+.PHONY : src/account.s
 
 # target to generate assembly for a file
-src/comunicadores/radio.cpp.s:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/radio.cpp.s
-.PHONY : src/comunicadores/radio.cpp.s
-
-src/comunicadores/roteador.obj: src/comunicadores/roteador.cpp.obj
-
-.PHONY : src/comunicadores/roteador.obj
-
-# target to build an object file
-src/comunicadores/roteador.cpp.obj:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/roteador.cpp.obj
-.PHONY : src/comunicadores/roteador.cpp.obj
-
-src/comunicadores/roteador.i: src/comunicadores/roteador.cpp.i
-
-.PHONY : src/comunicadores/roteador.i
-
-# target to preprocess a source file
-src/comunicadores/roteador.cpp.i:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/roteador.cpp.i
-.PHONY : src/comunicadores/roteador.cpp.i
-
-src/comunicadores/roteador.s: src/comunicadores/roteador.cpp.s
-
-.PHONY : src/comunicadores/roteador.s
-
-# target to generate assembly for a file
-src/comunicadores/roteador.cpp.s:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/roteador.cpp.s
-.PHONY : src/comunicadores/roteador.cpp.s
-
-src/comunicadores/telefone-sem-fio.obj: src/comunicadores/telefone-sem-fio.cpp.obj
-
-.PHONY : src/comunicadores/telefone-sem-fio.obj
-
-# target to build an object file
-src/comunicadores/telefone-sem-fio.cpp.obj:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone-sem-fio.cpp.obj
-.PHONY : src/comunicadores/telefone-sem-fio.cpp.obj
-
-src/comunicadores/telefone-sem-fio.i: src/comunicadores/telefone-sem-fio.cpp.i
-
-.PHONY : src/comunicadores/telefone-sem-fio.i
-
-# target to preprocess a source file
-src/comunicadores/telefone-sem-fio.cpp.i:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone-sem-fio.cpp.i
-.PHONY : src/comunicadores/telefone-sem-fio.cpp.i
-
-src/comunicadores/telefone-sem-fio.s: src/comunicadores/telefone-sem-fio.cpp.s
-
-.PHONY : src/comunicadores/telefone-sem-fio.s
-
-# target to generate assembly for a file
-src/comunicadores/telefone-sem-fio.cpp.s:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone-sem-fio.cpp.s
-.PHONY : src/comunicadores/telefone-sem-fio.cpp.s
-
-src/comunicadores/telefone.obj: src/comunicadores/telefone.cpp.obj
-
-.PHONY : src/comunicadores/telefone.obj
-
-# target to build an object file
-src/comunicadores/telefone.cpp.obj:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone.cpp.obj
-.PHONY : src/comunicadores/telefone.cpp.obj
-
-src/comunicadores/telefone.i: src/comunicadores/telefone.cpp.i
-
-.PHONY : src/comunicadores/telefone.i
-
-# target to preprocess a source file
-src/comunicadores/telefone.cpp.i:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone.cpp.i
-.PHONY : src/comunicadores/telefone.cpp.i
-
-src/comunicadores/telefone.s: src/comunicadores/telefone.cpp.s
-
-.PHONY : src/comunicadores/telefone.s
-
-# target to generate assembly for a file
-src/comunicadores/telefone.cpp.s:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone.cpp.s
-.PHONY : src/comunicadores/telefone.cpp.s
-
-src/hash.obj: src/hash.cpp.obj
-
-.PHONY : src/hash.obj
-
-# target to build an object file
-src/hash.cpp.obj:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/hash.cpp.obj
-.PHONY : src/hash.cpp.obj
-
-src/hash.i: src/hash.cpp.i
-
-.PHONY : src/hash.i
-
-# target to preprocess a source file
-src/hash.cpp.i:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/hash.cpp.i
-.PHONY : src/hash.cpp.i
-
-src/hash.s: src/hash.cpp.s
-
-.PHONY : src/hash.s
-
-# target to generate assembly for a file
-src/hash.cpp.s:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/hash.cpp.s
-.PHONY : src/hash.cpp.s
-
-src/heap.obj: src/heap.cpp.obj
-
-.PHONY : src/heap.obj
-
-# target to build an object file
-src/heap.cpp.obj:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/heap.cpp.obj
-.PHONY : src/heap.cpp.obj
-
-src/heap.i: src/heap.cpp.i
-
-.PHONY : src/heap.i
-
-# target to preprocess a source file
-src/heap.cpp.i:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/heap.cpp.i
-.PHONY : src/heap.cpp.i
-
-src/heap.s: src/heap.cpp.s
-
-.PHONY : src/heap.s
-
-# target to generate assembly for a file
-src/heap.cpp.s:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/heap.cpp.s
-.PHONY : src/heap.cpp.s
+src/account.cpp.s:
+	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/account.cpp.s
+.PHONY : src/account.cpp.s
 
 src/main.obj: src/main.cpp.obj
 
@@ -428,36 +212,12 @@ help:
 	@echo ... trampao-tudao
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... src/arvore.obj
-	@echo ... src/arvore.i
-	@echo ... src/arvore.s
-	@echo ... src/avl.obj
-	@echo ... src/avl.i
-	@echo ... src/avl.s
-	@echo ... src/comunicadores/celular.obj
-	@echo ... src/comunicadores/celular.i
-	@echo ... src/comunicadores/celular.s
-	@echo ... src/comunicadores/comunicador.obj
-	@echo ... src/comunicadores/comunicador.i
-	@echo ... src/comunicadores/comunicador.s
-	@echo ... src/comunicadores/radio.obj
-	@echo ... src/comunicadores/radio.i
-	@echo ... src/comunicadores/radio.s
-	@echo ... src/comunicadores/roteador.obj
-	@echo ... src/comunicadores/roteador.i
-	@echo ... src/comunicadores/roteador.s
-	@echo ... src/comunicadores/telefone-sem-fio.obj
-	@echo ... src/comunicadores/telefone-sem-fio.i
-	@echo ... src/comunicadores/telefone-sem-fio.s
-	@echo ... src/comunicadores/telefone.obj
-	@echo ... src/comunicadores/telefone.i
-	@echo ... src/comunicadores/telefone.s
-	@echo ... src/hash.obj
-	@echo ... src/hash.i
-	@echo ... src/hash.s
-	@echo ... src/heap.obj
-	@echo ... src/heap.i
-	@echo ... src/heap.s
+	@echo ... src/Hash.obj
+	@echo ... src/Hash.i
+	@echo ... src/Hash.s
+	@echo ... src/account.obj
+	@echo ... src/account.i
+	@echo ... src/account.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

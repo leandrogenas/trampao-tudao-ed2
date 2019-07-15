@@ -56,94 +56,38 @@ include CMakeFiles/trampao-tudao.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/trampao-tudao.dir/flags.make
 
-CMakeFiles/trampao-tudao.dir/src/arvore.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
-CMakeFiles/trampao-tudao.dir/src/arvore.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
-CMakeFiles/trampao-tudao.dir/src/arvore.cpp.obj: ../src/arvore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/trampao-tudao.dir/src/arvore.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\arvore.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\arvore.cpp
+CMakeFiles/trampao-tudao.dir/src/account.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
+CMakeFiles/trampao-tudao.dir/src/account.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
+CMakeFiles/trampao-tudao.dir/src/account.cpp.obj: ../src/account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/trampao-tudao.dir/src/account.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\account.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\account.cpp
 
-CMakeFiles/trampao-tudao.dir/src/arvore.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/arvore.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\arvore.cpp > CMakeFiles\trampao-tudao.dir\src\arvore.cpp.i
+CMakeFiles/trampao-tudao.dir/src/account.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/account.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\account.cpp > CMakeFiles\trampao-tudao.dir\src\account.cpp.i
 
-CMakeFiles/trampao-tudao.dir/src/arvore.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/arvore.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\arvore.cpp -o CMakeFiles\trampao-tudao.dir\src\arvore.cpp.s
+CMakeFiles/trampao-tudao.dir/src/account.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/account.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\account.cpp -o CMakeFiles\trampao-tudao.dir\src\account.cpp.s
 
-CMakeFiles/trampao-tudao.dir/src/avl.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
-CMakeFiles/trampao-tudao.dir/src/avl.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
-CMakeFiles/trampao-tudao.dir/src/avl.cpp.obj: ../src/avl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trampao-tudao.dir/src/avl.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\avl.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\avl.cpp
+CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
+CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
+CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj: ../src/Hash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\Hash.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\Hash.cpp
 
-CMakeFiles/trampao-tudao.dir/src/avl.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/avl.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\avl.cpp > CMakeFiles\trampao-tudao.dir\src\avl.cpp.i
+CMakeFiles/trampao-tudao.dir/src/Hash.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/Hash.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\Hash.cpp > CMakeFiles\trampao-tudao.dir\src\Hash.cpp.i
 
-CMakeFiles/trampao-tudao.dir/src/avl.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/avl.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\avl.cpp -o CMakeFiles\trampao-tudao.dir\src\avl.cpp.s
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/celular.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
-CMakeFiles/trampao-tudao.dir/src/comunicadores/celular.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
-CMakeFiles/trampao-tudao.dir/src/comunicadores/celular.cpp.obj: ../src/comunicadores/celular.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/trampao-tudao.dir/src/comunicadores/celular.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\comunicadores\celular.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\comunicadores\celular.cpp
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/celular.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/comunicadores/celular.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\comunicadores\celular.cpp > CMakeFiles\trampao-tudao.dir\src\comunicadores\celular.cpp.i
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/celular.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/comunicadores/celular.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\comunicadores\celular.cpp -o CMakeFiles\trampao-tudao.dir\src\comunicadores\celular.cpp.s
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/comunicador.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
-CMakeFiles/trampao-tudao.dir/src/comunicadores/comunicador.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
-CMakeFiles/trampao-tudao.dir/src/comunicadores/comunicador.cpp.obj: ../src/comunicadores/comunicador.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/trampao-tudao.dir/src/comunicadores/comunicador.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\comunicadores\comunicador.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\comunicadores\comunicador.cpp
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/comunicador.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/comunicadores/comunicador.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\comunicadores\comunicador.cpp > CMakeFiles\trampao-tudao.dir\src\comunicadores\comunicador.cpp.i
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/comunicador.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/comunicadores/comunicador.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\comunicadores\comunicador.cpp -o CMakeFiles\trampao-tudao.dir\src\comunicadores\comunicador.cpp.s
-
-CMakeFiles/trampao-tudao.dir/src/hash.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
-CMakeFiles/trampao-tudao.dir/src/hash.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
-CMakeFiles/trampao-tudao.dir/src/hash.cpp.obj: ../src/hash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/trampao-tudao.dir/src/hash.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\hash.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\hash.cpp
-
-CMakeFiles/trampao-tudao.dir/src/hash.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/hash.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\hash.cpp > CMakeFiles\trampao-tudao.dir\src\hash.cpp.i
-
-CMakeFiles/trampao-tudao.dir/src/hash.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/hash.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\hash.cpp -o CMakeFiles\trampao-tudao.dir\src\hash.cpp.s
-
-CMakeFiles/trampao-tudao.dir/src/heap.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
-CMakeFiles/trampao-tudao.dir/src/heap.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
-CMakeFiles/trampao-tudao.dir/src/heap.cpp.obj: ../src/heap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/trampao-tudao.dir/src/heap.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\heap.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\heap.cpp
-
-CMakeFiles/trampao-tudao.dir/src/heap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/heap.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\heap.cpp > CMakeFiles\trampao-tudao.dir\src\heap.cpp.i
-
-CMakeFiles/trampao-tudao.dir/src/heap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/heap.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\heap.cpp -o CMakeFiles\trampao-tudao.dir\src\heap.cpp.s
+CMakeFiles/trampao-tudao.dir/src/Hash.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/Hash.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\Hash.cpp -o CMakeFiles\trampao-tudao.dir\src\Hash.cpp.s
 
 CMakeFiles/trampao-tudao.dir/src/main.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
 CMakeFiles/trampao-tudao.dir/src/main.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
 CMakeFiles/trampao-tudao.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/trampao-tudao.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/trampao-tudao.dir/src/main.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\main.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\main.cpp
 
 CMakeFiles/trampao-tudao.dir/src/main.cpp.i: cmake_force
@@ -154,95 +98,23 @@ CMakeFiles/trampao-tudao.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\main.cpp -o CMakeFiles\trampao-tudao.dir\src\main.cpp.s
 
-CMakeFiles/trampao-tudao.dir/src/comunicadores/radio.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
-CMakeFiles/trampao-tudao.dir/src/comunicadores/radio.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
-CMakeFiles/trampao-tudao.dir/src/comunicadores/radio.cpp.obj: ../src/comunicadores/radio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/trampao-tudao.dir/src/comunicadores/radio.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\comunicadores\radio.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\comunicadores\radio.cpp
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/radio.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/comunicadores/radio.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\comunicadores\radio.cpp > CMakeFiles\trampao-tudao.dir\src\comunicadores\radio.cpp.i
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/radio.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/comunicadores/radio.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\comunicadores\radio.cpp -o CMakeFiles\trampao-tudao.dir\src\comunicadores\radio.cpp.s
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/roteador.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
-CMakeFiles/trampao-tudao.dir/src/comunicadores/roteador.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
-CMakeFiles/trampao-tudao.dir/src/comunicadores/roteador.cpp.obj: ../src/comunicadores/roteador.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/trampao-tudao.dir/src/comunicadores/roteador.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\comunicadores\roteador.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\comunicadores\roteador.cpp
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/roteador.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/comunicadores/roteador.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\comunicadores\roteador.cpp > CMakeFiles\trampao-tudao.dir\src\comunicadores\roteador.cpp.i
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/roteador.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/comunicadores/roteador.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\comunicadores\roteador.cpp -o CMakeFiles\trampao-tudao.dir\src\comunicadores\roteador.cpp.s
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone-sem-fio.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
-CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone-sem-fio.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
-CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone-sem-fio.cpp.obj: ../src/comunicadores/telefone-sem-fio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone-sem-fio.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\comunicadores\telefone-sem-fio.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\comunicadores\telefone-sem-fio.cpp
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone-sem-fio.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone-sem-fio.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\comunicadores\telefone-sem-fio.cpp > CMakeFiles\trampao-tudao.dir\src\comunicadores\telefone-sem-fio.cpp.i
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone-sem-fio.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone-sem-fio.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\comunicadores\telefone-sem-fio.cpp -o CMakeFiles\trampao-tudao.dir\src\comunicadores\telefone-sem-fio.cpp.s
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
-CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
-CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone.cpp.obj: ../src/comunicadores/telefone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\comunicadores\telefone.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\comunicadores\telefone.cpp
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\comunicadores\telefone.cpp > CMakeFiles\trampao-tudao.dir\src\comunicadores\telefone.cpp.i
-
-CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\comunicadores\telefone.cpp -o CMakeFiles\trampao-tudao.dir\src\comunicadores\telefone.cpp.s
-
 # Object files for target trampao-tudao
 trampao__tudao_OBJECTS = \
-"CMakeFiles/trampao-tudao.dir/src/arvore.cpp.obj" \
-"CMakeFiles/trampao-tudao.dir/src/avl.cpp.obj" \
-"CMakeFiles/trampao-tudao.dir/src/comunicadores/celular.cpp.obj" \
-"CMakeFiles/trampao-tudao.dir/src/comunicadores/comunicador.cpp.obj" \
-"CMakeFiles/trampao-tudao.dir/src/hash.cpp.obj" \
-"CMakeFiles/trampao-tudao.dir/src/heap.cpp.obj" \
-"CMakeFiles/trampao-tudao.dir/src/main.cpp.obj" \
-"CMakeFiles/trampao-tudao.dir/src/comunicadores/radio.cpp.obj" \
-"CMakeFiles/trampao-tudao.dir/src/comunicadores/roteador.cpp.obj" \
-"CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone-sem-fio.cpp.obj" \
-"CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone.cpp.obj"
+"CMakeFiles/trampao-tudao.dir/src/account.cpp.obj" \
+"CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj" \
+"CMakeFiles/trampao-tudao.dir/src/main.cpp.obj"
 
 # External object files for target trampao-tudao
 trampao__tudao_EXTERNAL_OBJECTS =
 
-trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/arvore.cpp.obj
-trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/avl.cpp.obj
-trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/comunicadores/celular.cpp.obj
-trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/comunicadores/comunicador.cpp.obj
-trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/hash.cpp.obj
-trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/heap.cpp.obj
+trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/account.cpp.obj
+trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj
 trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/main.cpp.obj
-trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/comunicadores/radio.cpp.obj
-trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/comunicadores/roteador.cpp.obj
-trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone-sem-fio.cpp.obj
-trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/comunicadores/telefone.cpp.obj
 trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/build.make
 trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/linklibs.rsp
 trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/objects1.rsp
 trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable trampao-tudao.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable trampao-tudao.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\trampao-tudao.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

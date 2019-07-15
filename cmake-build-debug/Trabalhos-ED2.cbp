@@ -84,55 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/arvore.cpp">
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/Hash.cpp">
 			<Option target="trampao-tudao"/>
 		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/avl.cpp">
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/account.cpp">
 			<Option target="trampao-tudao"/>
 		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/Estoquezao.h">
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/include/Hash.h">
 			<Option target="trampao-tudao"/>
 		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/celular.cpp">
-			<Option target="trampao-tudao"/>
-		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/celular.h">
-			<Option target="trampao-tudao"/>
-		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/comunicador.cpp">
-			<Option target="trampao-tudao"/>
-		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/comunicador.h">
-			<Option target="trampao-tudao"/>
-		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/radio.cpp">
-			<Option target="trampao-tudao"/>
-		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/radio.h">
-			<Option target="trampao-tudao"/>
-		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/roteador.cpp">
-			<Option target="trampao-tudao"/>
-		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/roteador.h">
-			<Option target="trampao-tudao"/>
-		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/telSemFio.h">
-			<Option target="trampao-tudao"/>
-		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/telefone-sem-fio.cpp">
-			<Option target="trampao-tudao"/>
-		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/telefone.cpp">
-			<Option target="trampao-tudao"/>
-		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/telefone.h">
-			<Option target="trampao-tudao"/>
-		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/hash.cpp">
-			<Option target="trampao-tudao"/>
-		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/heap.cpp">
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/include/account.h">
 			<Option target="trampao-tudao"/>
 		</Unit>
 		<Unit filename="D:/Trampos/Trabalhos-ED2/src/main.cpp">

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././src/include/account.h
+
+D:/Trampos/Trabalhos-ED2/src/account.cpp
+iostream
+-
+iomanip
+-
+src/include/account.h
+-
+
