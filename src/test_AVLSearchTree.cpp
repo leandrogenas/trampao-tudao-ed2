@@ -1,4 +1,4 @@
-#include "AVLSearchTree.h"
+#include "src/estruturas/ArvoreAVL.h"
 
 
 int main() {
@@ -6,7 +6,7 @@ int main() {
   // Templated heap
   using namespace std;
   int       character;
-  AVLSearchTree tree;
+  ArvoreAVL tree;
 
   
   cout << "Insira um numero e pressione enter." << endl;

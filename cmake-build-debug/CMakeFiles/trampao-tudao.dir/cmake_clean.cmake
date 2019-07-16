@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/trampao-tudao.dir/src/account.cpp.obj"
-  "CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj"
   "CMakeFiles/trampao-tudao.dir/src/main.cpp.obj"
   "trampao-tudao.pdb"
   "trampao-tudao.exe"

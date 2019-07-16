@@ -122,60 +122,6 @@ trampao-tudao/fast:
 	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/build
 .PHONY : trampao-tudao/fast
 
-src/Hash.obj: src/Hash.cpp.obj
-
-.PHONY : src/Hash.obj
-
-# target to build an object file
-src/Hash.cpp.obj:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj
-.PHONY : src/Hash.cpp.obj
-
-src/Hash.i: src/Hash.cpp.i
-
-.PHONY : src/Hash.i
-
-# target to preprocess a source file
-src/Hash.cpp.i:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/Hash.cpp.i
-.PHONY : src/Hash.cpp.i
-
-src/Hash.s: src/Hash.cpp.s
-
-.PHONY : src/Hash.s
-
-# target to generate assembly for a file
-src/Hash.cpp.s:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/Hash.cpp.s
-.PHONY : src/Hash.cpp.s
-
-src/account.obj: src/account.cpp.obj
-
-.PHONY : src/account.obj
-
-# target to build an object file
-src/account.cpp.obj:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/account.cpp.obj
-.PHONY : src/account.cpp.obj
-
-src/account.i: src/account.cpp.i
-
-.PHONY : src/account.i
-
-# target to preprocess a source file
-src/account.cpp.i:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/account.cpp.i
-.PHONY : src/account.cpp.i
-
-src/account.s: src/account.cpp.s
-
-.PHONY : src/account.s
-
-# target to generate assembly for a file
-src/account.cpp.s:
-	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/account.cpp.s
-.PHONY : src/account.cpp.s
-
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -212,12 +158,6 @@ help:
 	@echo ... trampao-tudao
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... src/Hash.obj
-	@echo ... src/Hash.i
-	@echo ... src/Hash.s
-	@echo ... src/account.obj
-	@echo ... src/account.i
-	@echo ... src/account.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

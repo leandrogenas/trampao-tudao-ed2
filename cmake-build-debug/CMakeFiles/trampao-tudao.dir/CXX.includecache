@@ -6,13 +6,37 @@
 
 #IncludeRegexTransform: 
 
-.././src/include/account.h
-
-D:/Trampos/Trabalhos-ED2/src/account.cpp
+.././src/comunicadores/Comunicador.h
 iostream
 -
-iomanip
+
+.././src/comunicadores/Radio.h
+iostream
 -
-src/include/account.h
+Comunicador.h
+.././src/comunicadores/Comunicador.h
+
+.././src/estruturas/HashTable.h
+iostream
+-
+string
+-
+src/comunicadores/Comunicador.h
+-
+account.h
+.././src/estruturas/account.h
+
+../src/account.h
+
+D:/Trampos/Trabalhos-ED2/src/main.cpp
+iostream
+-
+src/estruturas/HashTable.h
+-
+cmath
+-
+functional
+-
+src/comunicadores/Radio.h
 -
 

@@ -47,21 +47,21 @@ struct NodeAluno
 
 
 /*
-  A classe SearchTree é a que irá gerenciar todas as funções da árvore
+  A classe ArvoreDeBusca é a que irá gerenciar todas as funções da árvore
   de busca. Você notará que essa árvore foi implementada com várias
   funções recursivas privadas e várias funções públicas que
   simplesmente invocam as funções privadas e fornecem algum valor para
   o parâmetro como ponto de partida.
  */
-class SearchTree
+class ArvoreDeBusca
 {
 
  public:  
-  SearchTree() {
+  ArvoreDeBusca() {
     root = NULL;
   }
     
-  ~SearchTree(){
+  ~ArvoreDeBusca(){
    destroyTree(root);
   }
 
@@ -78,7 +78,20 @@ class SearchTree
 
   // Verifica se é possível alocar um novo nó. Você usará a mesma
   // estratégia de LinkedQueue e LinkeStack.
-  bool isFull() const;
+  bool isFull() const
+  {
+      NodeAluno* location;
+      try
+      {
+          location = new NodeAluno;
+          delete location;
+          return false;
+      }
+      catch(std::bad_alloc exception)
+      {
+          return true;
+      }
+  };
 
 /* Todos os métodos públicos abaixo já estão implementados, note que
    eles simplesmente invocam métodos recursivos configurando os
@@ -86,7 +99,8 @@ class SearchTree
    privados que implementam a funcionalidade invocada por esses
    métodos públicos. */
   
-  void retrieveAluno(Aluno& item, bool& found) const{
+  void retrieveAluno(Aluno& item, bool& found) const
+  {
     retrieveAluno(root, item, found);
   }
 
@@ -128,7 +142,19 @@ class SearchTree
    existe ou não.
   */
   
-  void retrieveAluno(NodeAluno* tree, Aluno& item, bool& found) const;
+  void retrieveAluno(NodeAluno* tree, Aluno& item, bool& found) const
+  {
+      if (tree == NULL)
+          found = false;
+      else if (aluno.getRa() < tree->aluno.getRa())
+          retrieveAluno(tree->esquerda, aluno, found);
+      else if (aluno.getRa() > tree->aluno.getRa())
+          retrieveAluno(tree->direita, aluno, found);
+      else {
+          aluno = tree->aluno;
+          found = true;
+      }
+  };
 
   // De forma análoga, os métodos abaixo deverão ser chamados pelos
   // métodos públicos. Os parâmetros NodeAluno*& tree estão ai para

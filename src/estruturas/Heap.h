@@ -19,7 +19,15 @@ class Heap
     Este primeiro construtor recebe o numero máximo de elementos que a
     heap poderá receber e inicializa uma heap vazia.
   */
-  Heap(int MAX_ITEMS = 10); 
+  Heap(int MAX_ITEMS = 10)
+  {
+      this->MAX_ITEMS = MAX_ITEMS;
+      cadastro  = new Account*[MAX_ITEMS];
+      for (int i = 0; i < MAX_ITEMS; i++) {
+          cadastro[i] = NULL;
+      }
+      length    = 0;
+  };
 
   /*
     Este segundo construtor também recebe o número máximo de elementos
@@ -41,7 +49,13 @@ class Heap
     Este é um destrutor, você deverá usá-lo para apagar todos os
     elementos da Heap antes de apagar a própria Heap.
    */
-  ~Heap();
+  ~Heap()
+  {
+      for (int i = 0; i < length; i++) {
+          delete cadastro[i];
+      }
+      delete [ ] cadastro;
+  };
 
   /*
     Alguns métodos auxiliares. Os nomes dos métodos são

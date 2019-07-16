@@ -1,42 +1,45 @@
 #include <iostream>
-#include <src/include/Hash.h>
+#include <src/estruturas/HashTable.h>
+#include <cmath>
+#include <functional>
+#include <src/comunicadores/Radio.h>
 
 using namespace std;
 
 
+#define QTD_ITENS 7
+#define TEL_SEM_FIO "tsf"
+#define COMUNICADOR "comm"
+#define TELEFONE "tel"
+#define CELULAR "cel"
+#define RADIO "radio"
+#define ROTEADOR "roteador"
+#define WALKIE_TALKIE "wk"
 
-int main(){
-  Hash hash;
-    hash.print();
-  int numbers [7] = {12704, 31300, 1234, 49001, 52202, 65606, 91234};
-  int balances[7] = {1321,    100,   1000,     5,    15,    20, 25   }; 
-	    
-  for (int i = 0; i < 7; i++) {
-    Account account = Account(numbers[i], balances[i]);
-    hash.insertItem(account);
+#define FREQ(X, D) ((float)({[](float x, int d){ return (float)(x * pow(10, d));};})(X, D))
+#define DOIS_QUATROGHZ ((float)( 2.4 * pow(10,6)))
+#define ALCANCE_GLOBAL (float)({[]{ return (float)(6.3 * pow(10, 5 + ((rand() % 100) / 1 - (rand() % 100)))); };})
 
-  }
 
-  hash.print();
-  
-  cout << "------------------------------" <<  endl;
+int main()
+{
+    HashTable hash;
 
-  /*
-    Para procurar uma determinada conta no banco, devemos
-    primeiramente criar a região de memória onde ela será alocada.
-   */
-  Account account(12704);
-  bool     found = false;
+    string tipos[QTD_ITENS] = { ROTEADOR, COMUNICADOR, TEL_SEM_FIO, CELULAR, RADIO, TELEFONE, WALKIE_TALKIE };
+    string marcas[QTD_ITENS]  = { "TP-Link", "Motorola", "Panasonic", "Black&Decker", "Apple", "Xiaomi", "LG" };
+    string modelos[QTD_ITENS] = { "Archer C60", "DynaTAC", "EASA Phone System", "BDCSP18N", "iPhone 6s", "Mi Mix 2", "LG G5" };
+    float frequencias[QTD_ITENS] = { DOIS_QUATROGHZ,  FREQ(4.5, 5), FREQ(0, 0), FREQ(10, 10), DOIS_QUATROGHZ, DOIS_QUATROGHZ, DOIS_QUATROGHZ };
+    float txsTransmissao[QTD_ITENS] = { (float) pow(10, 6), (float) pow(10, 1), (float) pow(10, 1), (float) pow(10, 1), (float) pow(10, 5), (float) pow(10, 5), (float) pow(10, 5)  };
+    float tensao[QTD_ITENS] = { 12.0, 12.0, 6.0, 5.0, 5.0, 5.0, 5.0 };
+    float potencia[QTD_ITENS] = { 10.0, 7.0, 5.0, 5.0, 15.0, 12.0, 12.0 };
+    float alcance[QTD_ITENS] = { 100, (float) pow(10, 3), 0.0, ALCANCE_GLOBAL(), ALCANCE_GLOBAL(), ALCANCE_GLOBAL(), ALCANCE_GLOBAL() };
 
-  hash.retrieveItem(account, found);
-  cout << account.getAccountNumber() << " -> " << found << " R$" << account.getBalance() <<  endl;
+    for (int i = 0; i < 7; i++)
+        Comunicador c(marcas[i], modelos[i], frequencias[i], txsTransmissao[i], tensao[i], potencia[i], alcance[i]);
 
-  cout << "------------------------------" <<  endl;
+    Comunicador cTeste("Motorola", "Moto G5", FREQ(315, 6), 10000, 12.0, 15.0, ALCANCE_GLOBAL());
 
-  hash.deleteItem(account);
+    Radio r(cTeste, 1.0, 2.0, 100, true, true, false);
+    hash.insertItem((Comunicador &) r);
 
-  cout << "------------------------------" <<  endl;
-
-  hash.print();
-  cout << "Fim" << endl;  
 }

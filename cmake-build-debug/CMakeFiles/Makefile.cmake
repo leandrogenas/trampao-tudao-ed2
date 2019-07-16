@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/CMakeCInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/CMakeCommonLanguageInclude.cmake"
@@ -20,12 +19,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/CMakeSystemSpecificInitialize.cmake"
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/Compiler/GNU.cmake"
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/Internal/CMakeCheckCompilerFlag.cmake"
-  "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/Platform/Windows-GNU-C-ABI.cmake"
-  "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/Platform/Windows-GNU-CXX.cmake"
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/Platform/Windows-GNU.cmake"
@@ -34,7 +30,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2019.1/bin/cmake/win/share/cmake-3.14/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
-  "CMakeFiles/3.14.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeSystem.cmake"

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/comunicadores/TelefoneSemFio.h" line="21" mnemonic="9" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Trabalhos-ED2" targetName="trampao-tudao" />
+      <config projectName="trampao-tudao" targetName="trampao-tudao" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,24 +14,71 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25e4a89c-ba41-4d55-97b9-9dd833a8e369" name="Default Changelist" comment="">
+    <list default="true" id="25e4a89c-ba41-4d55-97b9-9dd833a8e369" name="Default Changelist" comment="Commit inicial">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/trampao-tudao.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comunicadores/Comunicador.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comunicadores/Radio.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comunicadores/Roteador.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comunicadores/Telefone.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comunicadores/TelefoneSemFio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comunicadores/WalkieTalkie.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estruturas/Hash.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comunicadores/Estoquezao.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comunicadores/celular.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comunicadores/celular.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comunicadores/comunicador.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comunicadores/comunicador.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comunicadores/radio.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comunicadores/radio.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comunicadores/roteador.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comunicadores/roteador.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comunicadores/telSemFio.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comunicadores/telefone-sem-fio.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comunicadores/telefone.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comunicadores/telefone.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hash.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/heap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/src/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/trampao-tudao.dir/src/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Trabalhos-ED2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Trabalhos-ED2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/trampao-tudao.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/trampao-tudao.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVLSearchTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturas/AVLSearchTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturas/SearchTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/account.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/account.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arvore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturas/arvore.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/avl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturas/avl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/celular.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comunicador.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturas/heap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heap1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturas/heap1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heap1_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap1_main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heap_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/heap_main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/AVLSearchTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturas/AVLSearchTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/Hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturas/Hash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/SearchTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturas/SearchTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/account.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/account.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/comunicadores/Estoquezao.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/comunicadores/celular.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/comunicadores/Celular.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/comunicadores/comunicador.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/comunicadores/radio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/comunicadores/roteador.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/comunicadores/telSemFio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/comunicadores/telefone.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/heap.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturas/heap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/heap1.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturas/heap1.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/radio.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roteador.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telefone-sem-fio.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/telefone.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_AVLSearchTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/estruturas/test_AVLSearchTree.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="-103">
+              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -55,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="418">
+              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -65,25 +115,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Hash.cpp">
+        <entry file="file://$PROJECT_DIR$/src/comunicadores/Comunicador.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="433">
+              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/estruturas/Heap.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/account.cpp">
+        <entry file="file://$PROJECT_DIR$/src/estruturas/HashTable.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="292">
+              <caret line="71" column="19" lean-forward="true" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#15#34#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comunicadores/Radio.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+              <folding>
+                <element signature="e#14#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Utils.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -101,16 +178,48 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/Hash.cpp" />
         <option value="$PROJECT_DIR$/src/account.cpp" />
+        <option value="$PROJECT_DIR$/src/include/comunicadores/telefone.h" />
+        <option value="$PROJECT_DIR$/src/include/comunicadores/comunicador.h" />
+        <option value="$PROJECT_DIR$/src/Utils.cpp" />
+        <option value="$PROJECT_DIR$/src/include/comunicadores/Utils.h" />
+        <option value="$PROJECT_DIR$/src/include/comunicadores/Radio.h" />
+        <option value="$PROJECT_DIR$/src/include/comunicadores/Comunicador.h" />
+        <option value="$PROJECT_DIR$/src/include/Hash.h" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/include/Radio.h" />
+        <option value="$PROJECT_DIR$/src/Hash.cpp" />
+        <option value="$PROJECT_DIR$/src/include/Comunicador.h" />
+        <option value="$PROJECT_DIR$/src/include/Radio.cpp" />
+        <option value="$PROJECT_DIR$/src/include/Roteador.h" />
+        <option value="$PROJECT_DIR$/src/include/Telefone.h" />
+        <option value="$PROJECT_DIR$/src/include/TelefoneSemFio.h" />
+        <option value="$PROJECT_DIR$/src/WalkieTalkie.h" />
+        <option value="$PROJECT_DIR$/src/comunicadores/WalkieTalkie.cpp" />
+        <option value="$PROJECT_DIR$/src/comunicadores/TelefoneSemFio.cpp" />
+        <option value="$PROJECT_DIR$/LICENSE.md" />
+        <option value="$PROJECT_DIR$/src/comunicadores/Comunicador.cpp" />
+        <option value="$PROJECT_DIR$/src/comunicadores/Radio.cpp" />
+        <option value="$PROJECT_DIR$/src/test_AVLSearchTree.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/estruturas/HashTable.cpp" />
+        <option value="$PROJECT_DIR$/src/estruturas/ArvoreAVL.cpp" />
+        <option value="$PROJECT_DIR$/src/estruturas/ArvoreAVL.h" />
+        <option value="$PROJECT_DIR$/src/estruturas/ArvoreDeBusca.cpp" />
+        <option value="$PROJECT_DIR$/src/estruturas/ArvoreDeBusca.h" />
+        <option value="$PROJECT_DIR$/src/estruturas/Heap.cpp" />
+        <option value="$PROJECT_DIR$/src/estruturas/Heap.h" />
+        <option value="$PROJECT_DIR$/src/Utils.h" />
+        <option value="$PROJECT_DIR$/src/estruturas/HashTable.h" />
+        <option value="$PROJECT_DIR$/src/comunicadores/Radio.h" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/comunicadores/Comunicador.h" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+    <option name="x" value="55" />
+    <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -119,36 +228,52 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Trabalhos-ED2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trampao-tudao" type="b2602c69:ProjectViewProjectNode" />
               <item name="Trabalhos-ED2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Trabalhos-ED2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trampao-tudao" type="b2602c69:ProjectViewProjectNode" />
               <item name="Trabalhos-ED2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trampao-tudao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trabalhos-ED2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="comunicadores" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="Y:\Meu Drive\5º Semestre\Estrutura de dados II\Trabalhos\Tudo\src\comunicadores" />
+      <recent name="D:\Trampos\Trabalhos-ED2\src" />
+      <recent name="D:\Trampos\Trabalhos-ED2\src\comunicadores" />
+      <recent name="D:\Trampos\Trabalhos-ED2\src\estruturas" />
+      <recent name="D:\Trampos\Trabalhos-ED2\src\include" />
+      <recent name="D:\Trampos\Trabalhos-ED2\src\include\comunicadores" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -164,7 +289,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="trampao-tudao" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Trabalhos-ED2" TARGET_NAME="trampao-tudao" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Trabalhos-ED2" RUN_TARGET_NAME="trampao-tudao">
+    <configuration name="trampao-tudao" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="trampao-tudao" TARGET_NAME="trampao-tudao" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="trampao-tudao" RUN_TARGET_NAME="trampao-tudao">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -181,25 +306,27 @@
       <option name="presentableId" value="Default" />
       <updated>1563198419302</updated>
       <workItem from="1563198423572" duration="169000" />
-      <workItem from="1563198630889" duration="936000" />
+      <workItem from="1563198630889" duration="987000" />
+      <workItem from="1563228413461" duration="7336000" />
+      <workItem from="1563235829348" duration="13196000" />
+      <workItem from="1563286547798" duration="6215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1105000" />
+    <option name="totallyTimeSpent" value="27903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -208,6 +335,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -221,40 +349,333 @@
     <MESSAGE value="Commit inicial" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit inicial" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>(int)(x / max)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((int) x)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((int) x) % max</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>marca[0]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(marca[0] + 1) * (modelo[0] + 1</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((marca[0] + 1) * (modelo[0] + 1)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(((marca[0] + 1) * (modelo[0] + 1))</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((int)((marca[0] + 1) * (modelo[0] + 1))</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((int)((marca[0] + 1) * (modelo[0] + 1)) * getPotencia() + getAlcance())</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+    <entry file="file://$PROJECT_DIR$/src/Utils.cpp" />
+    <entry file="file://$PROJECT_DIR$/src/comunicadores/Celular.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hash.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/account.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="537">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/account.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comunicadores/Roteador.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comunicadores/Radio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Telefone.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Celular.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-415" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/telefone-sem-fio.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Comunicador.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Estoquezao.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comunicadores/Roteador.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="3417">
+          <caret line="201" selection-start-line="201" selection-end-line="201" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/heap_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comunicadores/TelefoneSemFio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/estruturas/arvore.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/estruturas/avl.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_AVLSearchTree.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.exemplo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="126" column="19" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comunicadores/WalkieTalkie.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comunicadores/Telefone.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="58" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="58" />
+          <folding>
+            <element signature="e#13#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/estruturas/HashTable.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/estruturas/ArvoreAVL.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/estruturas/ArvoreDeBusca.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="155" column="7" selection-start-line="155" selection-start-column="7" selection-end-line="155" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/estruturas/ArvoreDeBusca.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/estruturas/Heap.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/estruturas/heap1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/estruturas/heap1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/estruturas/ArvoreAVL.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="128" column="7" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/estruturas/Heap.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comunicadores/Radio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+          <folding>
+            <element signature="e#14#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comunicadores/Comunicador.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/estruturas/HashTable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="71" column="19" lean-forward="true" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

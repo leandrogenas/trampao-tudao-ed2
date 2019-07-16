@@ -56,38 +56,10 @@ include CMakeFiles/trampao-tudao.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/trampao-tudao.dir/flags.make
 
-CMakeFiles/trampao-tudao.dir/src/account.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
-CMakeFiles/trampao-tudao.dir/src/account.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
-CMakeFiles/trampao-tudao.dir/src/account.cpp.obj: ../src/account.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/trampao-tudao.dir/src/account.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\account.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\account.cpp
-
-CMakeFiles/trampao-tudao.dir/src/account.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/account.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\account.cpp > CMakeFiles\trampao-tudao.dir\src\account.cpp.i
-
-CMakeFiles/trampao-tudao.dir/src/account.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/account.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\account.cpp -o CMakeFiles\trampao-tudao.dir\src\account.cpp.s
-
-CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
-CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
-CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj: ../src/Hash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\Hash.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\Hash.cpp
-
-CMakeFiles/trampao-tudao.dir/src/Hash.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trampao-tudao.dir/src/Hash.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Trampos\Trabalhos-ED2\src\Hash.cpp > CMakeFiles\trampao-tudao.dir\src\Hash.cpp.i
-
-CMakeFiles/trampao-tudao.dir/src/Hash.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trampao-tudao.dir/src/Hash.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Trampos\Trabalhos-ED2\src\Hash.cpp -o CMakeFiles\trampao-tudao.dir\src\Hash.cpp.s
-
 CMakeFiles/trampao-tudao.dir/src/main.cpp.obj: CMakeFiles/trampao-tudao.dir/flags.make
 CMakeFiles/trampao-tudao.dir/src/main.cpp.obj: CMakeFiles/trampao-tudao.dir/includes_CXX.rsp
 CMakeFiles/trampao-tudao.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/trampao-tudao.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/trampao-tudao.dir/src/main.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trampao-tudao.dir\src\main.cpp.obj -c D:\Trampos\Trabalhos-ED2\src\main.cpp
 
 CMakeFiles/trampao-tudao.dir/src/main.cpp.i: cmake_force
@@ -100,21 +72,17 @@ CMakeFiles/trampao-tudao.dir/src/main.cpp.s: cmake_force
 
 # Object files for target trampao-tudao
 trampao__tudao_OBJECTS = \
-"CMakeFiles/trampao-tudao.dir/src/account.cpp.obj" \
-"CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj" \
 "CMakeFiles/trampao-tudao.dir/src/main.cpp.obj"
 
 # External object files for target trampao-tudao
 trampao__tudao_EXTERNAL_OBJECTS =
 
-trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/account.cpp.obj
-trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj
 trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/src/main.cpp.obj
 trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/build.make
 trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/linklibs.rsp
 trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/objects1.rsp
 trampao-tudao.exe: CMakeFiles/trampao-tudao.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable trampao-tudao.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Trampos\Trabalhos-ED2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable trampao-tudao.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\trampao-tudao.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

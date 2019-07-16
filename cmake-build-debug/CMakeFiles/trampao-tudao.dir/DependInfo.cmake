@@ -4,8 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Trampos/Trabalhos-ED2/src/Hash.cpp" "D:/Trampos/Trabalhos-ED2/cmake-build-debug/CMakeFiles/trampao-tudao.dir/src/Hash.cpp.obj"
-  "D:/Trampos/Trabalhos-ED2/src/account.cpp" "D:/Trampos/Trabalhos-ED2/cmake-build-debug/CMakeFiles/trampao-tudao.dir/src/account.cpp.obj"
   "D:/Trampos/Trabalhos-ED2/src/main.cpp" "D:/Trampos/Trabalhos-ED2/cmake-build-debug/CMakeFiles/trampao-tudao.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -14,6 +12,8 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../."
   "../src"
+  "../src/comunicadores"
+  "../src/estruturas"
   )
 
 # Targets to which this target links.

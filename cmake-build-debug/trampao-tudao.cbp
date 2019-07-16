@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="Trabalhos-ED2"/>
+		<Option title="trampao-tudao"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -27,6 +27,7 @@
 					<Add directory="D:/Trampos/Trabalhos-ED2/."/>
 					<Add directory="D:/Trampos/Trabalhos-ED2/src"/>
 					<Add directory="D:/Trampos/Trabalhos-ED2/src/comunicadores"/>
+					<Add directory="D:/Trampos/Trabalhos-ED2/src/estruturas"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -51,6 +52,7 @@
 					<Add directory="D:/Trampos/Trabalhos-ED2/."/>
 					<Add directory="D:/Trampos/Trabalhos-ED2/src"/>
 					<Add directory="D:/Trampos/Trabalhos-ED2/src/comunicadores"/>
+					<Add directory="D:/Trampos/Trabalhos-ED2/src/estruturas"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
@@ -86,16 +88,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/Utils.h">
+			<Option target="trampao-tudao"/>
+		</Unit>
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/Celular.h">
+			<Option target="trampao-tudao"/>
+		</Unit>
 		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/Comunicador.h">
 			<Option target="trampao-tudao"/>
 		</Unit>
 		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/Radio.h">
 			<Option target="trampao-tudao"/>
 		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/estruturas/Hash.cpp">
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/Roteador.h">
 			<Option target="trampao-tudao"/>
 		</Unit>
-		<Unit filename="D:/Trampos/Trabalhos-ED2/src/estruturas/Hash.h">
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/Telefone.h">
+			<Option target="trampao-tudao"/>
+		</Unit>
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/TelefoneSemFio.h">
+			<Option target="trampao-tudao"/>
+		</Unit>
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/comunicadores/WalkieTalkie.h">
+			<Option target="trampao-tudao"/>
+		</Unit>
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/estruturas/ArvoreAVL.h">
+			<Option target="trampao-tudao"/>
+		</Unit>
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/estruturas/ArvoreDeBusca.h">
+			<Option target="trampao-tudao"/>
+		</Unit>
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/estruturas/HashTable.h">
+			<Option target="trampao-tudao"/>
+		</Unit>
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/estruturas/Heap.h">
 			<Option target="trampao-tudao"/>
 		</Unit>
 		<Unit filename="D:/Trampos/Trabalhos-ED2/src/main.cpp">

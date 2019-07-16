@@ -11,14 +11,14 @@ struct Node
   Node*    direita;
 };
 
-class AVLSearchTree
+class ArvoreAVL
 {
  public:  
-  AVLSearchTree() {
+  ArvoreAVL() {
     root = NULL;
   }
     
-  ~AVLSearchTree(){
+  ~ArvoreAVL(){
     destroyTree(root);
   }
 
@@ -83,12 +83,51 @@ class AVLSearchTree
   // foi alterado ou nao. Em outras palavras, avise em found se o no
   // existe ou nao.
  
-  void retrieveItem(Node* tree, ItemType& item, bool& found) const;
+  void retrieveItem(Node* tree, ItemType& item, bool& found) const
+  {
+      if(tree = NULL || item == 0)
+          found = false;
+      else if(tree->label == item)
+          found = true;
+      else
+      if(tree->label > item)
+          retrieveItem(tree->esq, item, found);
+      else
+          retrieveItem(tree->dir, item, found);
+  };
 
   // De forma analoga, os metodos abaixo deverao ser chamados pelos
   // metodos publicos. Os parametros Node*& tree estao ai para voce
   // implementar de forma recursiva.
-  void insertItem(Node*& tree, ItemType item, bool& isTaller);
+  void insertItem(Node*& tree, ItemType item, bool& isTaller)
+  {
+      bool found = false;
+      retrieveItem(tree, item, found);
+      if(tree == NULL){
+          tree = new Node;
+          tree->fatorB = 0;
+          tree->label = item;
+          tree->esq = tree->dir = NULL;
+          isTaller = 1;
+      }
+      if(item < tree->label){
+          bool ins = false;
+          insertItem(tree->esq, item, ins);
+          if(ins)
+              tree->fatorB -= 1;
+
+          if(tree->fatorB == -2)
+              rotacaoDireita();
+
+          isTaller = (fatorB == 0) ? 0 : 1;
+
+      }else{
+          bool ins = false;
+          insertItem(tree->dir, item, ins);
+          IF(ins)
+
+      }
+  };
 
   // Use este metodo privado apenas para navegar pela arvore ate
   // encontrar o no que voce deseja excluir. Feito isso, chame o
