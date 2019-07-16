@@ -154,6 +154,7 @@ class ArvoreDeBusca
           aluno = tree->aluno;
           found = true;
       }
+      }
   };
 
   // De forma análoga, os métodos abaixo deverão ser chamados pelos

@@ -24,7 +24,7 @@ set(ESTRUTURAS
     ${PATH_ESTRUTURAS}/Heap.h
 )
 
-set(ARQ_MAIN ${PATH_SRC}/main.cpp src/Utils.h)
+set(ARQ_MAIN ${PATH_SRC}/main.cpp src/Utils.h src/OpcoesMenu.cpp include/OpcoesMenu.h)
 
 include_directories(.)
 include_directories(src)

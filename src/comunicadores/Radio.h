@@ -65,9 +65,9 @@ public:
         return (int) x % max;
     }
 
-    void print() override
+    virtual void print() override
     {
-        Comunicador::print();
+
         cout << "+--------------------------------------------------" << endl;
         cout << "|  O comunicador em questao e um radio             " << endl;
         cout << "| - - - - - - - - - - - - - - - - - - - - - - - - -" << endl;

@@ -122,6 +122,33 @@ trampao-tudao/fast:
 	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/build
 .PHONY : trampao-tudao/fast
 
+src/OpcoesMenu.obj: src/OpcoesMenu.cpp.obj
+
+.PHONY : src/OpcoesMenu.obj
+
+# target to build an object file
+src/OpcoesMenu.cpp.obj:
+	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/OpcoesMenu.cpp.obj
+.PHONY : src/OpcoesMenu.cpp.obj
+
+src/OpcoesMenu.i: src/OpcoesMenu.cpp.i
+
+.PHONY : src/OpcoesMenu.i
+
+# target to preprocess a source file
+src/OpcoesMenu.cpp.i:
+	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/OpcoesMenu.cpp.i
+.PHONY : src/OpcoesMenu.cpp.i
+
+src/OpcoesMenu.s: src/OpcoesMenu.cpp.s
+
+.PHONY : src/OpcoesMenu.s
+
+# target to generate assembly for a file
+src/OpcoesMenu.cpp.s:
+	$(MAKE) -f CMakeFiles\trampao-tudao.dir\build.make CMakeFiles/trampao-tudao.dir/src/OpcoesMenu.cpp.s
+.PHONY : src/OpcoesMenu.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... trampao-tudao
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... src/OpcoesMenu.obj
+	@echo ... src/OpcoesMenu.i
+	@echo ... src/OpcoesMenu.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

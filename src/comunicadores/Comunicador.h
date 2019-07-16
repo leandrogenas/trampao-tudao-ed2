@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -43,6 +44,10 @@ public:
         alcance = obj.getAlcance();
     }
 
+    Comunicador(
+            const string marca, const string modelo
+    ): marca(marca), modelo(modelo) {  }
+
     Comunicador(){ }
 
     /* Getters */
@@ -67,8 +72,13 @@ public:
     virtual int getFingerprint(int max)
     {
         int y = (((int) marca[0]) + 1) * (((int) modelo[0]) + 1);
-        float x = (y * getPotencia() + getAlcance());
-        return (int)(x / max);
+        float x = (y * getPotencia() + getTxTransmissao() * getTensao());
+
+        int z = 1;
+        for(int v=(int)x; v>max; v /= max)
+            z += 1;
+
+        return (int)(x / (float) pow(10.0, (double) z) + 0.1);
     }
 
 

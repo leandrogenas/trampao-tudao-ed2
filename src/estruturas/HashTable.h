@@ -4,41 +4,37 @@
 #include <iostream>
 #include <string>
 #include <src/comunicadores/Comunicador.h>
-#include "account.h"
-
+#include <vector>
 
 class HashTable {
  private:
   int       MAX_ITEMS;
   int       length;
-  /*
-    A nossa estrutura interna é um array para ponteiros de Account.
-   */
+
   Comunicador** cadastro;
+
+  Comunicador* lapide = new Comunicador("-1", "-1");
   
   
  public:
   // Constructor
-  HashTable(int size = 20)
+  HashTable(int size)
   {
       MAX_ITEMS = size;
-      cadastro  = new Comunicador*[size];
-
-      /*
-         É sempre interessante garantir que os valores serão inicializados com NULL.
-       */
-      for (int i = 0; i < size; i++) {
-          cadastro[i] = nullptr;
-      }
       length    = 0;
+
+      cadastro  = new Comunicador*[size];
+      for (int i = 0; i < size; i++)
+          cadastro[i] = nullptr;
   }
 
   /*
     Retorna o numero de elementos preenchidos.
    */
-  int getLength() const { return length; };
+  int getLength() const
+    { return length; };
 
-  /* 
+  /*
      Recebe um ponteiro para um elemento do tipo Account. Esse elemento
    Account que recebemos por parametro tem uma chave. Usamos essa chave
    para buscar um elemento em nosso banco e retornar esse elemento na
@@ -59,21 +55,31 @@ class HashTable {
       }
   };
 
-  
-  /*
-    Insere o elemento na lista na posicao indicada pelo metodo getHash.
-  */
+
   void insertItem(Comunicador c)
   {
       int hash = c.getFingerprint(MAX_ITEMS);
-      cout << "hash " << hash << endl;
+
       if(cadastro[hash] == nullptr){
           cadastro[hash] = new Comunicador(c);
           length++;
-      }else{
-          std::cout << "Colisão" << std::endl;
-      }
+      }else tratarColisao(c);
+
   };
+
+  void tratarColisao(Comunicador c)
+  {
+     int hash = c.getFingerprint(MAX_ITEMS);
+
+     // Método da lápide
+     Comunicador *aux;
+     do{
+        aux = cadastro[hash++];
+
+        if(aux == nullptr)
+            cadastro[hash] = &c;
+     }while(aux == nullptr);
+  }
 
   /*
     Remove uma ocorrência de account na lista.
@@ -81,11 +87,27 @@ class HashTable {
   void deleteItem(Comunicador c)
   {
       int hash = c.getFingerprint(MAX_ITEMS);
+      int i = hash;
+      Comunicador *aux;
+      while((aux = cadastro[i++]) != lapide);
 
+      if(aux == nullptr)
+        return;
+
+      hash = aux->getFingerprint(MAX_ITEMS);
       delete cadastro[hash];
       cadastro[hash] = nullptr;
       length--;
+
+      reorganizarArvore(hash);
   };
+
+  void reorganizarArvore(int j = 0)
+  {
+      for(int i=j; i<length; i++)
+          if(cadastro[i] == lapide)
+              cadastro[i + 1] = cadastro[i];
+  }
 
   /*
     Imprime todos os elementos que estão na lista, inclusive as
@@ -93,16 +115,23 @@ class HashTable {
    */
   void print() const
   {
-      std::cout << "+----------------- inicio do print ----------------" << std::endl;
+      cout << "===================================================" << endl;
+      cout << "+----------------- inicio do print ----------------" << endl;
       for (int i = 0; i < MAX_ITEMS; i++) {
-          Comunicador* acc = cadastro[i];
-          if (acc != nullptr) {
-              acc->print();
-          }
+          Comunicador* c = cadastro[i];
+          if (c != nullptr) c->print();
       }
-      std::cout << "===================================================" << std::endl;
-      std::cout << "+----------------- fim do print -------------------" << std::endl;
+      cout << "+----------------- fim do print -------------------" << endl;
+      cout << "===================================================" << endl;
   };
 
+  static HashTable nova(const vector<Comunicador *> &comms, int max = 20)
+  {
+      HashTable hash(max);
+      for(int i=0; i < comms.size() - 1; i++)
+          hash.insertItem(*comms[i]);
+
+      return hash;
+  }
   
 };

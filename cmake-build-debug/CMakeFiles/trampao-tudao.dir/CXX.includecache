@@ -6,8 +6,14 @@
 
 #IncludeRegexTransform: 
 
+.././include/OpcoesMenu.h
+iostream
+-
+
 .././src/comunicadores/Comunicador.h
 iostream
+-
+cmath
 -
 
 .././src/comunicadores/Radio.h
@@ -22,6 +28,18 @@ iostream
 string
 -
 src/comunicadores/Comunicador.h
+-
+vector
+-
+
+.././src/estruturas/Heap.h
+iostream
+-
+string
+-
+src/comunicadores/Comunicador.h
+-
+vector
 -
 account.h
 .././src/estruturas/account.h
@@ -38,5 +56,11 @@ cmath
 functional
 -
 src/comunicadores/Radio.h
+-
+include/OpcoesMenu.h
+-
+vector
+-
+src/estruturas/Heap.h
 -
 

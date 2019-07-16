@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/trampao-tudao.dir/src/main.cpp.obj"
+  "CMakeFiles/trampao-tudao.dir/src/OpcoesMenu.cpp.obj"
   "trampao-tudao.pdb"
   "trampao-tudao.exe"
   "trampao-tudao.exe.manifest"

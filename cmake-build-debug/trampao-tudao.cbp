@@ -88,6 +88,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Trampos/Trabalhos-ED2/include/OpcoesMenu.h">
+			<Option target="trampao-tudao"/>
+		</Unit>
+		<Unit filename="D:/Trampos/Trabalhos-ED2/src/OpcoesMenu.cpp">
+			<Option target="trampao-tudao"/>
+		</Unit>
 		<Unit filename="D:/Trampos/Trabalhos-ED2/src/Utils.h">
 			<Option target="trampao-tudao"/>
 		</Unit>
